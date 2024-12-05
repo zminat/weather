@@ -1,0 +1,46 @@
+.WeatherContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.WeatherCard {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #a2cdfa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.WeatherCard h1 {
+    margin: 5px 0;
+    color: #555;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+.WeatherCard h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #333;
+}
+
+.WeatherCard p {
+    margin: 5px 0;
+    color: #555;
+    text-align: left;
+    font-size: 16px;
+}
+
+.WeatherDate {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.WeatherIcon {
+    margin-right: 15px;
+}
